@@ -26,8 +26,39 @@
 	border:4px solid black;
 	width: 900px;
 	height: 1500px;
+	background: #FFEBCD;
 }
 
+.mainHeader
+{
+	position:relative;
+	left:400px;
+	top:-1500px;
+	font-family: "Arial-Black", Times, serif;
+}
+.page
+{
+	position:relative;
+	top:-250px;
+	left: -150px;
+	z-index: 900;
+	border:5px solid #FFEBCD;
+	width:775px;
+	height:1350px;
+}
+.home
+{
+	position:relative;
+	left: 75px;
+	z-index: 950;
+}
+h2
+{
+	position:relative;
+	z-index: 1000;
+	top: -1360px;
+	left: 70px;
+}
 a
 {
 	text-decoration: none;
