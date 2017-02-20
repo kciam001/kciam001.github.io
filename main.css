@@ -1,23 +1,39 @@
-/* html-color-codes.info */
 .myMenu
 {
 	position:fixed;
 	left:10px;
 	right:10px;
-	border: 4px solid #9766CF;
+	border: 4px solid #424242;
 	width: 160px;
-	height:500px;
+	height:550px;
 	padding: 10px; 
 	line-height: 90px;
 	font-family: "Courier New", Times, serif;
 	text-decoration: none !important;
-	color:#9A2EFE;
-	background:#D0A9F5;
+	color:white;
+	background:#BDBDBD;
 	margin: 5px 5px 5px 5px;
 
 	vertical-align: middle;
 
 
+}
+iframe
+{
+	position:relative;
+	left:175px;
+}
+.jumbotron
+{
+	position:relative;
+	left:175px;
+	width:900px;
+}
+.row
+{
+	position:relative;
+	left:175px;
+	
 }
 .mainPage
 {
@@ -26,7 +42,7 @@
 	border:4px solid black;
 	width: 900px;
 	height: 1500px;
-	background: #FFEBCD;
+	background: #F2F2F2;
 }
 
 .mainHeader
@@ -36,28 +52,14 @@
 	top:-1500px;
 	font-family: "Arial-Black", Times, serif;
 }
-.page
+
+body
 {
-	position:relative;
-	top:-250px;
-	left: -150px;
-	z-index: 900;
-	border:5px solid #FFEBCD;
-	width:775px;
-	height:1350px;
+	max-width:975px;
 }
-.home
+p
 {
-	position:relative;
-	left: 75px;
-	z-index: 950;
-}
-h2
-{
-	position:relative;
-	z-index: 1000;
-	top: -1360px;
-	left: 70px;
+	max-width:975px;
 }
 a
 {
@@ -71,7 +73,7 @@ a:hover
 }
 a:visited
 {
-	color:#9A2EFE;
+	color:black;
 }
 
 ul
@@ -80,5 +82,13 @@ list-style-type: none;
 }
 body
 {
-	background-color: #CED8F6;
+	position:relative;
+	background-color: #F2F2F2;
+	height:1800px;
 }
+h3
+{
+	position:relative;
+	left:175px;
+}
+
